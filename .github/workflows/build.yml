@@ -50,7 +50,7 @@
             with:
               source: ${{ github.repository  }}
               find: 'b-at-rtsmeding-nl/docker_container_'
-              replace: ''
+              replace: 'bsmeding/'
           - name: Build and push image.
             uses: docker/build-push-action@v5
             with:
